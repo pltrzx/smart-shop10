@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- viewport -->
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="description" content="Description content.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles -->
+        <link rel="stylesheet" href="./style/style.css" type="text/css">
+        <link rel="stylesheet" href="./style/header-footer.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <img class="logo" src="./src/images/phone_logo.png" alt="logo">
+                <div class="label">
+                    <p class="label-p1">SMART<span>shop</span></p>
+                    <p class="label-p2">Все смартфоны у нас</p>
+                </div>
+            </div>
+            
+            <nav>
+                <a class="button" href="./index.html">главная</a>
+                <a class="button" href="./catalog.html">каталог</a>
+                <a class="button active" href="./about.html">о компании</a>
+                <a class="button" href="./cart.html">корзина</a>
+                <a class="cart" href="./cart.html" title="корзина">
+                    <img src="./src/images/cart.png" alt="корзина">
+                    <span id="header-cart-counter">0</span>
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>О КОМПАНИИ</h2>
+            <h3>Адрес: Авангард, Гагарина 49</h3>
+            <h3>Телефон +375336196300</h3>
+            <img src="./src/images/офис.jpeg" alt="">
+            <h4 style="text-align: center">Перейдите <a href="./catalog.html">в каталог</a> для выбора смартфонов.</h4>
+        </main>
+
+        <footer>
+            Сайт разработал <span>Платон Трейбух</span>
+        </footer>
+
+        <a id="fixed-phone-button" href="tel:+375336196300"></a>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
